@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Guoshen Sun | Academic Homepage</title>
+
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -31,6 +32,7 @@
 
     h1 {
       margin-bottom: 5px;
+      font-size: 32px;
     }
 
     h2 {
@@ -50,11 +52,22 @@
     }
 
     .pub {
-      margin-bottom: 18px;
+      margin-bottom: 22px;
     }
 
-    .title {
+    .pub-title {
       font-weight: bold;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .pub-authors {
+      margin-top: 2px;
+    }
+
+    .pub-venue {
+      margin-top: 2px;
+      color: #444;
     }
 
     .news li {
@@ -72,9 +85,9 @@
       <h1>Guoshen Sun</h1>
       <p>Ph.D. Student / Researcher</p>
       <p>
-        Email /
+        <a href="mailto:gsxjdx@126.com">Email</a> /
         <a href="#">CV</a> /
-        <a href="https://github.com/gsxjdx">GitHub</a> /
+        <a href="https://github.com/PetrichorAsh">GitHub</a> /
         <a href="#">Google Scholar</a>
       </p>
     </div>
@@ -82,44 +95,90 @@
 
   <h2>About Me</h2>
   <p>
-    I am currently conducting research in remote sensing, computer vision,
-    and deep learning-based oil spill detection. My research focuses on
-    semantic segmentation, SAR/optical image analysis, and vision foundation models.
+    My research focuses on oil spill detection in port optical imagery and offshore SAR remote sensing images,
+    with particular interests in semantic segmentation, SAR/optical image analysis, vision foundation model
+    fine-tuning, and computer vision-based visual perception. I am especially interested in developing robust
+    deep learning methods for complex maritime scenes, including weak-boundary oil spill segmentation,
+    multi-source remote sensing interpretation, and foundation model adaptation for marine environmental monitoring.
   </p>
 
   <h2>News</h2>
   <ul class="news">
-    <li><b>2026.05</b> One paper is under review.</li>
-    <li><b>2026.04</b> Our work on SAR oil spill detection was completed.</li>
+    <li><b>2026.05</b> Our recent work on oil spill detection has been added to the publication list.</li>
+    <li><b>2026.04</b> We continue to investigate vision foundation models for port optical and offshore SAR oil spill detection.</li>
   </ul>
 
   <h2>Selected Publications</h2>
 
   <div class="pub">
-    <div class="title">MOSP-GFNet: A DINOv3-Based Dual-Stream Gated Fusion Network for SAR Oil Spill Detection</div>
-    <div><b>Guoshen Sun</b>, et al.</div>
-    <div><i>Expert Systems With Applications</i>, under review.</div>
+    <div class="pub-title">
+      <a href="#">
+        GSSNet: Gated Selective Scan Network for Port Oil Spill Pollution Detection
+      </a>
+    </div>
+    <div class="pub-authors">
+      <b>Guoshen Sun</b>, Y. Li, J. Shang, L. Cheng
+    </div>
+    <div class="pub-venue">
+      <i>Measurement</i>, 256, 118086.
+    </div>
   </div>
 
   <div class="pub">
-    <div class="title">DINOv3-OilSeg: Parameter-Efficient Fine-Tuning for Port Oil Spill Segmentation</div>
-    <div><b>Guoshen Sun</b>, et al.</div>
-    <div><i>Pattern Recognition / Measurement style manuscript</i>.</div>
+    <div class="pub-title">
+      <a href="#">
+        DADS-SAM: DALoRA and DSCA Enhanced Fine-Tuning for Port Oil Spill Detection Using UAV Imagery
+      </a>
+    </div>
+    <div class="pub-authors">
+      <b>Guoshen Sun</b>, Y. Li, J. Shang, Z. Wang, J. Yuan
+    </div>
+    <div class="pub-venue">
+      <i>IEEE Transactions on Geoscience and Remote Sensing</i>, 64, 1–20.
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">
+      <a href="#">
+        CoRemoteSAM-Oil: A Method for Marine Oil Spill Pollution Detection Through Cross-Domain Knowledge Transfer and Integration
+      </a>
+    </div>
+    <div class="pub-authors">
+      <b>Guoshen Sun</b>, Y. Li, L. Cheng, Q. Yang
+    </div>
+    <div class="pub-venue">
+      <i>Measurement</i>, 279, 121659.
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">
+      <a href="#">
+        HSRD-Net: A Hybrid RemoteSAM-ResNet with Dynamic Weight Assignment for SAR Oil Spill Detection
+      </a>
+    </div>
+    <div class="pub-authors">
+      <b>Guoshen Sun</b>, Y. Li, Z. Zhang, P. Wu, Z. Wang
+    </div>
+    <div class="pub-venue">
+      <i>Expert Systems With Applications</i>, 132384.
+    </div>
   </div>
 
   <h2>Research Interests</h2>
   <ul>
-    <li>Remote sensing image segmentation</li>
-    <li>SAR oil spill detection</li>
-    <li>Vision foundation models</li>
-    <li>Parameter-efficient fine-tuning</li>
-    <li>Medical signal analysis</li>
+    <li>Port optical image oil spill detection</li>
+    <li>Offshore SAR remote sensing image analysis</li>
+    <li>Semantic segmentation and visual perception</li>
+    <li>Vision foundation model fine-tuning</li>
+    <li>Remote sensing image understanding</li>
   </ul>
 
   <h2>Education</h2>
   <p>
     <b>Dalian Maritime University</b><br>
-    Research direction: Deep learning, remote sensing, and oil spill detection.
+    Research direction: Deep learning, remote sensing image interpretation, and marine oil spill detection.
   </p>
 
 </body>
